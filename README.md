@@ -21,7 +21,7 @@ The contents of this repository include a wide range of topics such as system co
 
 The Linux Administration Repository contains the following sections:
 
-1. [System Configuration](/tree/main/System%20Configuration): This section contains scripts and configurations related to system setup, user management, permissions, system services, and system monitoring. You will find examples of configuring popular services like Apache, MySQL, and Nginx, as well as scripts for automating system administration tasks.
+1. [System Configuration](https://github.com/cosbey/linux-admin/tree/main/System%20Configuration): This section contains scripts and configurations related to system setup, user management, permissions, system services, and system monitoring. You will find examples of configuring popular services like Apache, MySQL, and Nginx, as well as scripts for automating system administration tasks.
 
 2. **Automation**: Here, you will find scripts and guides that focus on automating various aspects of Linux administration. This includes shell scripting, task scheduling with cron, and using configuration management tools such as Ansible or Puppet.
 
