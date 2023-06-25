@@ -19,10 +19,13 @@ In this task, you must use the commands you learned about to check the current w
 
 2. Display the names of the files and directories in the current working directory.
 
-Which directory is your current working directory?
 
 
-![[Capture 1.png]]
+**Which directory is your current working directory?**
+
+
+![Capture](https://github.com/cosbey/linux-admin/assets/32424700/d5608bd0-8383-44d8-8d0a-c662e7108c93)
+<br>
 
 
 
@@ -33,18 +36,17 @@ In this task, you must navigate to a new directory and determine the subdirector
 1. Navigate to the `/home/analyst/reports` directory.
 
 2. Display the files and subdirectories in the `/home/analyst/reports` directory.
+<br>
+
 
 **What is the name of the subdirectory in the /home/analyst/reports directory?**
 
-analyst
+- analyst
+- projects
+- `users`
+- logs
 
-projects
 
-`users
-
-logs
-
-Submit
 
 
 
@@ -58,29 +60,27 @@ In this task, you must navigate to a subdirectory and read the contents of a fil
 
 3. Display the contents of the `Q1_added_users.txt` file.
 
+
+
 **What department does the employee with the username aezra work in?**
-
-`Human Resources
-
-Finance
-
-Information Technology
-
-Sales
+- `Human Resources`
+- Finance
+- Information Technology
+- Sales
 
 
 
-What is the employee_id of the user mreed in the Information Technology department?
 
-`1104
 
-1177
+**What is the employee_id of the user mreed in the Information Technology department?**
+- `1104`
+- 1177
+- 1188
+- 1001
 
-1188
 
-1001
 
-![[Capture2.png]]
+![Capture2](https://github.com/cosbey/linux-admin/assets/32424700/4ac844d3-b7a8-4a98-85d6-e8a6afd536f0)
 
 
 
@@ -96,7 +96,7 @@ In this task, you must navigate to a new directory, locate a file, and examine t
 
 **How many warning messages are in the first 10 lines of the server_logs.txt file?**
 
-![[Capture3 1.png]]
+![Capture3](https://github.com/cosbey/linux-admin/assets/32424700/996f0b83-fd0c-4567-b675-f0be8dc743dc)
 
 ## Observations and Results:
 
@@ -112,3 +112,7 @@ In this lab, we used practical Linux Bash shell commands to:
 - display the contents of files with the `cat` and `head` commands.
 
 Navigating through directories and reading file contents are fundamental skills that you’ll often use when communicating through the shell.
+
+## Additional Resources
+- https://ubuntu.com/download/desktop
+- https://www.kali.org/
