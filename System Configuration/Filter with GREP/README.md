@@ -1,4 +1,4 @@
-# Filter with GREP Command
+# Filter with the GREP Command
 
 ## Lab Objective:
 
