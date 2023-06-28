@@ -1,3 +1,5 @@
+# Find Files with Linux Commands
+
 ## Lab Objective:
 
 In this lab activity, you’ll navigate a Linux file structure, locate files, and read the contents of files. As a security analyst, it’s key that you know how to navigate, manage, and analyze files remotely via a Linux shell without a graphical user interface.
