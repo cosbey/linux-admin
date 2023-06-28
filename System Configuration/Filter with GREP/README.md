@@ -1,3 +1,5 @@
+# Filter with GREP Command
+
 ## Lab Objective:
 
 In this lab, you need to obtain information contained in server log and user data files. You also need to find files with specific names.
