@@ -2,6 +2,8 @@
 
 ## **Lab Objective:** 
 
+>The Linux command "apt" (Advanced Package Tool) is a powerful package management tool used in Debian-based distributions, such as Ubuntu, to manage software packages. It allows users to search, install, upgrade, and remove software packages from their system. The "apt" command is part of the larger APT package management system, which includes other related commands like "apt-get" and "apt-cache."
+>
 In this lab activity, you’ll use the Advanced Package Tool (APT) and `sudo` to install and uninstall applications in a Linux Bash shell.
 
 While installing Linux applications can be a complex task, the APT package manager manages most of this complexity for you and allows you to quickly and reliably manage the applications in a Linux environment.
