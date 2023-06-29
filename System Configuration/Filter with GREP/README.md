@@ -2,7 +2,8 @@
 
 ## Lab Objective:
 
-The Linux command "grep" is a powerful tool used for searching and filtering text within files. It allows you to find lines that match a specific pattern or string of characters. The name "grep" stands for "global regular expression print," which reflects its capability to search for patterns globally within a file and print matching lines.
+>The Linux command "grep" is a powerful tool used for searching and filtering text within files. It allows you to find lines that match a specific pattern or string of characters. The name "grep" stands for "global regular expression print," which reflects its capability to search for patterns globally within a file and print matching lines.
+>
 In this lab, you need to obtain information contained in server log and user data files using the grep command. You'll also need to find files with specific names.
 
 
