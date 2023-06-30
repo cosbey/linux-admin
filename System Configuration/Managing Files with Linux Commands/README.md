@@ -2,11 +2,11 @@
 
 ## Lab Objective:
 
-In this lab activity, you’ll use Linux commands to modify a directory structure and the files it contains.
+In this lab activity I used Linux commands to modify a directory structure and the files it contains.
 
-You’ll also use the nano text editor to add text to a file.
+Also, I utilized the nano text editor to add text to a file.
 
-You previously learned that directories help you organize subdirectories and files in Linux. As a security analyst, creating, removing, and editing directories and files are core tasks you’ll need to perform to help you to manage data.
+As a security analyst, creating, removing, and editing directories and files are core tasks you’ll need to perform to help you to manage data. This lab was performed in an virtual environment with installed content. However, reviewing the lab notes can help other administrators learne how to manage files from the CLI and in Linux altogether.
 
 
 ## Lab Purpose:
@@ -21,27 +21,14 @@ _**Note:** The lab starts with your user account, called `analyst`, already l
 
 When you start, the `/home/analyst` directory contains the following subdirectories and files:
 
-home
-└── analyst
-    ├── notes
-    │   ├── Q3patches.txt
-    │   └── tempnotes.txt
-    ├── reports
-    │   ├── Q1patches.txt
-    │   └── Q2patches.txt
-    └── temp
+![image](https://github.com/cosbey/linux-admin/assets/32424700/14e5e7e6-8330-4650-a875-a0fcc4880787)
+
+
 
 You need to modify the `/home/analyst` directory to the following directory and file structure:
 
-home
-└── analyst
-    ├── logs
-    ├── notes
-    │   └── tasks.txt    
-    └── reports
-        ├── Q1patches.txt
-        └── Q2patches.txt
-        └── Q3patches.txt
+![image](https://github.com/cosbey/linux-admin/assets/32424700/3b8c4415-009b-4b79-89e8-8772a22e657c)
+
 
 Here’s how you’ll do this: **First**, you’ll create a new subdirectory called logs in the `/home/analyst` directory. **Next**, you’ll remove the `temp` subdirectory. **Then**, you’ll move the `Q3patches.txt` file to the `reports` subdirectory and delete the `tempnotes.txt` file. **Finally**, you’ll create a new `.txt` file called `tasks` in the `notes` subdirectory and add a note to the file describing the tasks you've performed.
 
@@ -74,7 +61,9 @@ The `temp` directory should no longer be listed:
 
 
 
-![[Pasted image 20230628210151.png]]
+![Pasted image 20230628210151](https://github.com/cosbey/linux-admin/assets/32424700/69105840-28cc-424b-a7bc-6b65e9065116)
+
+
 
 
 
@@ -118,9 +107,9 @@ Now, you must create a file named `tasks.txt` in the `/home/analyst/notes` d
 
 A file called `tasks.txt` should now exist in the `notes` directory:
 
-`tasks.txt`
-`
-![[Pasted image 20230628210359.png]]
+
+![Pasted image 20230628210359](https://github.com/cosbey/linux-admin/assets/32424700/6cba640c-3f2f-4896-ae1f-780037253246)
+
 
 ## Task 6. Edit a file
 
@@ -154,15 +143,13 @@ _**Note:** Most Bash shells typically handle the screen cleanup after you exit 
 This file should now contain the contents of the `tasks.txt` file that you added and saved in previous steps:
 
 
-![[Pasted image 20230628210501.png]]
+![Pasted image 20230628210501](https://github.com/cosbey/linux-admin/assets/32424700/439e3ed0-a47f-424f-9f7b-cbaef972ecf2)
 
-![[Pasted image 20230628210736.png]]
+
+![Pasted image 20230628210736](https://github.com/cosbey/linux-admin/assets/32424700/93a97aaf-ae44-48ea-948e-44fdbb11cca8)
 
 ## Observations and Results: 
-Tools are important and learning how to use the command line effectively will benefit any administrator. Understanding the difference between Linux distros is key when learning the command line. 
-Specifically, understanding that some distros differ when installing applications. For example, Red-Hat and Debian use two different package manager commands, YUM and APT respectively.
-These essentially are the basics and fundamentals that assist in developing key skills of commanding this environment and remediating issues.
-
+Learning how to manage files in Linux is of utmost importance for a security analyst. As a security analyst, you'll frequently work with server logs, configuration files, user access reports, and other critical data. Being able to navigate, analyze, and manipulate files efficiently and securely is essential for identifying potential vulnerabilities, investigating security incidents, and implementing necessary security measures. Linux provides powerful command-line tools for file management, allowing you to search, filter, and extract relevant information. Additionally, understanding file permissions, access control, and file integrity verification techniques enables you to ensure the confidentiality, integrity, and availability of sensitive data. Mastering file management in Linux empowers security analysts to effectively perform their duties, enhance system security, and safeguard valuable assets.
 
 ## Lessons Learned: 
 In this lab, we have used basic Linux Bash shell commands to:
