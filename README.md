@@ -25,7 +25,7 @@ The Linux Administration Repository contains the following sections:
 
 2. **Automation**: Here, you will find scripts and guides that focus on automating various aspects of Linux administration. This includes shell scripting, task scheduling with cron, and using configuration management tools such as Ansible or Puppet.
 
-3. **Security**: The security section covers scripts, configurations, and best practices for securing Linux systems. This includes topics like user authentication, firewall configuration, intrusion detection, log monitoring, and encryption. You will also find guides on implementing secure remote access protocols like SSH.
+3. [Security](https://github.com/cosbey/linux-admin/tree/main/Security): The security section covers scripts, configurations, and best practices for securing Linux systems. This includes topics like user authentication, firewall configuration, intrusion detection, log monitoring, and encryption. You will also find guides on implementing secure remote access protocols like SSH.
 
 4. **Networking**: In this section, you will find scripts and configurations related to network setup and administration. Topics include network configuration, DNS (Domain Name System) setup, DHCP (Dynamic Host Configuration Protocol), VPN (Virtual Private Network), and firewall rules.
 
