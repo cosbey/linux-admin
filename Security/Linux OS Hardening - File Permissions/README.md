@@ -55,7 +55,8 @@ The second block of text in the expanded directory listing is the user who owns 
 
 Before I explore how to change file permissions, I would like to give a brief description on how to conduct the modification. Essentially, there are two ways an administrator can change the permission of a file or directory through the `chmod` command. 
 
-1. After identifying the permissions string, administrators can change each character for all owner types. The `chmod` command requires two arguments. The first argument indicates how to change permissions, and the second argument indicates the file or directory that you want to change permissions for.  For example, the following command would add all permissions to *login_sessions.txt*:
+### chmod command
+After identifying the permissions string, administrators can change each character for all owner types. The `chmod` command requires two arguments. The first argument indicates how to change permissions, and the second argument indicates the file or directory that you want to change permissions for.  For example, the following command would add all permissions to *login_sessions.txt*:
 
 `chmod u+rwx,g+rwx,o+rwx login_sessions.txt`
 
@@ -63,7 +64,8 @@ Before I explore how to change file permissions, I would like to give a brief de
 
 `chmod u-rwx,g-rwx,o-rwx login_sessions.txt`
 
-2. The `chmod` command using octal notation also allows you to specify permissions. Octal notation represents each permission as a three-digit number.
+### Octal notation
+The `chmod` command using octal notation also allows you to specify permissions. Octal notation represents each permission as a three-digit number.
 
 The three digits in octal notation correspond to three sets of permissions: owner, group, and others. Each digit represents a combination of three binary bits, where 1 indicates the permission is granted and 0 indicates it is not granted.
 
@@ -171,7 +173,7 @@ Only the `researcher2` user should be allowed to access the `drafts` directo
 
 Understanding how to navigate and manage permissions via CLI is critical as a security analyst. Identifying proper privileges' for users and groups is a key principle for OS hardening. From a defense in depth perspective, monitoring and managing access adds and additional layer for security. It limits a threat actor's potential ability to traverse the network and file system if a vulnerability is exploited. A security analyst's position is to not only identify a potential issue, but to rectify it right away. Offering the proper access rights to users and groups in a network is only another way of preventing an incident from escalating.
 
-In this project, I was able to practice typical Linux command line techniques to manage file permissions from the shell. The following tasks were performed:
+In this project, I was able to remediate several file permission issues by utilizing the cli from the Linux shell. The following tasks were performed:
 
 - Examine file and directory permissions.
 - Identify hidden files and directories.
