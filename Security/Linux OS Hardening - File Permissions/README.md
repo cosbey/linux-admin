@@ -1,4 +1,4 @@
-# Project: Linux OS Hardening - File Permissions
+# Project: Linux OS Hardening - Authorization and File Permissions
 
 ## Project description
 
