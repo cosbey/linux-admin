@@ -21,9 +21,9 @@ The security analyst must also check the permissions for all files in the direct
 
 The steps and following tasks are:
 
-1. **First**, check the user and group permissions for all files in the `projects` directory. 
-2. **Next**, check whether any files have incorrect permissions and change the permissions as needed. 
-3. **Finally**, the analyst must check the permissions of the `/home/researcher2/projects/drafts` directory and modify these permissions to remove any unauthorized access.
+  1. First, check the user and group permissions for all files in the `projects` directory.
+  2. Next, check whether any files have incorrect permissions and change the permissions as needed.
+  3. Finally, the analyst must check the permissions of the `/home/researcher2/projects/drafts` directory and modify these permissions to remove any unauthorized access.
 
 
 ## Check file and directory details
@@ -39,7 +39,7 @@ The permissions of the files in the `projects` directory are as follows:
 
 ![Pasted image 20230629225744](https://github.com/cosbey/linux-admin/assets/32424700/578de4d4-74a1-4e5e-822b-e0dd1d95969a)
 
-**Note:** _The date and time information returned is the same as the date and time when you ran the command. Therefore, it is different from the date and time in the example._
+>**Note:** _The date and time information returned is the same as the date and time when you ran the command. Therefore, it is different from the date and time in the example._
 
 
 ## Describe the permissions string
